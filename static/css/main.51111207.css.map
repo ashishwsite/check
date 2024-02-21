@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.51111207.css","mappings":"AAAA,OAGE,uBAAwB,CACxB,aAAiB,CACjB,cAAe,CAHf,cAAe,CADhB,UAKD","sources":["App.css"],"sourcesContent":["button{\n width: 12cm;\n  font-size: 35px;\n  background-color: bisque;\n  color: blueviolet;\n  cursor: pointer;\n}\n"],"names":[],"sourceRoot":""}

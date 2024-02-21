@@ -140,15 +140,15 @@ else{
     }
   }
   // 
-  const sqroot=()=>{
-    var rootAns= Math.sqrt(data);
-    setoutput(
-      {
-        ke:rootAns,
-        mess:`is the square root of ${data} .`
-      }
-    )
-  }
+  // const sqroot=()=>{
+  //   var rootAns= Math.sqrt(data);
+  //   setoutput(
+  //     {
+  //       ke:rootAns,
+  //       mess:`is the square root of ${data} .`
+  //     }
+  //   )
+  // }
   return (
     <>
       <h1 style={{textAlign:'center', color:'goldenrod'}}>Maths:Function</h1>
@@ -174,7 +174,7 @@ else{
           <td>
         <button onClick={findCube} style={{border:'solid 2px' }}>Find Cube</button>
         <button onClick={perfectCube} style={{border:'solid 2px' }}>Check PerfectCube</button>
-        <button onClick={sqroot} style={{border:'solid 2px' }}>Find sqroot</button>
+        // <button onClick={sqroot} style={{border:'solid 2px' }}>Find sqroot</button>
         </td>
         </tr>
         </table>

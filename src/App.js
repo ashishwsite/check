@@ -160,12 +160,12 @@ function App() {
         Maths:Function
       </h1>
       <div style={{ textAlign: "center" }}>
-        <input
+        <input style={{border:'solid 2px', borderRadius:'7px',fontSize: "30px"}}
           id="inputid"
           onChange={(e) => {
             setdata(e.target.value);
           }}
-          style={{ fontSize: "30px" }}
+          
           type="number"
           placeholder="enter data"
           value={data}

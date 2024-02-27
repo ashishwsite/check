@@ -4,9 +4,6 @@ function App() {
   const [data, setdata] = useState();
   const [factor, setfactor] = useState([]);
   const [output, setoutput] = useState({});
-  // useEffect(()=>{
-
-  // },data)
   function isprime(d) {
     if (d < 2) return false;
 
